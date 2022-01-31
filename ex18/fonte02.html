@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes Extrernas</title>
+    <style>
+      @font-face {
+        font-family: "Valorant";
+        src: url("fonts/Valorant\ Font.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+
+        /*Tipos de Format()
+            
+            - opentype - (otf)
+            - truetype - (ttf)
+            - embedded-opentype
+            - truetype-aat-> (Apple Advanced Tipografy)
+            - svg
+            */
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      h1 {
+        font-family: "Valorant", Times, serif;
+        font-size: 3em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Titulo</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ad
+      distinctio consequuntur, ipsam accusamus cum quasi sapiente voluptate
+      libero tenetur rerum esse ratione reprehenderit autem voluptas quam,
+      eligendi sed. Non!
+    </p>
+  </body>
+</html>

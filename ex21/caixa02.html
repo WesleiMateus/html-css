@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping tags</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: dimgrey;
+            margin: 0;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.493);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+        }
+
+        footer > p {
+          margin: 0;
+        }
+
+        article {
+            background-color: lightgrey;
+        }
+        
+        article > aside {
+            background-color: rgb(124, 116, 116);
+            padding: 5px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;   
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.493);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        /*#bola {
+          height: 100px;
+          width: 100px;
+          margin: 10px;
+          background-color: white;
+          border-radius: 50%;
+        }*/
+
+    </style>
+  </head>
+  <body>
+    <header>
+        <h1>Meu Site</h1>
+      <nav>
+        <a href="#">Links</a>
+        <a href="#">Links</a>
+        <a href="#">Links</a>
+        <a href="#">Links</a>
+        <a href="#">Links</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos"></section>
+      <section id="noticias"></section>
+      <article>
+        <h2>Noticia sobre o Brasil</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui pariatur
+          consectetur voluptatem quas sit nulla esse ipsa id molestias
+          voluptates at doloremque officiis dolorem libero dolore expedita,
+          asperiores similique aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint provident id mollitia suscipit quam totam magnam maxime similique nisi porro eveniet temporibus, voluptatem fuga incidunt animi iusto unde recusandae ratione! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae soluta, necessitatibus enim fuga architecto velit aspernatur eligendi explicabo repudiandae harum maiores itaque deserunt minima earum delectus optio tenetur voluptatibus autem!
+        </p>
+        <aside>
+          <p>Artigo escrito por Weslei</p>
+        </aside>
+      </article>
+    </main>
+    <footer>
+      <p>Desenvolvido por Weslei Mateus | WM Technologies</p>
+    </footer>
+    <div id="bola"></div>
+  </body>
+</html>

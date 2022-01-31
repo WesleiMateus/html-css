@@ -1,0 +1,45 @@
+@charset "UFT-8";
+
+/*
+    Caractéres em HTML - CSS
+
+    id - # (Somente um elemento)
+    class - . (Varios elementos permitidos)
+
+*/
+
+body {
+  background-color: #2b351e;
+  font-family: sans-serif;
+  color: white;
+}
+
+h1 {
+  color: #738aa3;
+}
+#principal {
+  text-align: center;
+  background-color: #00804f;
+  color: white;
+}
+
+h2 {
+  color: #beed80;
+}
+
+
+.basico {
+    color: #09ff00;
+}
+
+.intermediario {
+    color: #dc15ff;
+}
+
+.avancado {
+    color: #ff0000;
+}
+
+.destaque {
+    background-color: #88776186;
+}
